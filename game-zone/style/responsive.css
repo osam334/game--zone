@@ -101,3 +101,11 @@
     }
     
 }
+/* footer section */
+@media screen and  (max-width:400px) {
+    .footer{
+        flex-direction: column;
+        
+    }
+    
+}

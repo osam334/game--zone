@@ -165,13 +165,17 @@
     
 }
 .game{
-    border: 2px solid black;
+   
     border-radius: 60px;
     background: #FFF;
     flex-basis: 300px;
     padding: 10px;
     display: flex;
     margin: 10px;
+}
+.game:hover{
+    color: #8758F1;
+    border: 2px solid red;
 }
 .games-text{
     font-size: 20px;
@@ -181,8 +185,48 @@
     height: 60px;
     width: 60px;
 }
-
-
-
-
-
+/* games section end  */
+/* footer secction  */
+.footer{
+    
+    height:500px;
+    background-color: #0B0223;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    gap: 10px;
+    
+}
+.footer-text{
+    color:white;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    margin-top: 50px;
+    gap: 50px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: #FFF;
+}
+.footer-text-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: #FFF;
+}
+.footer-p{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
