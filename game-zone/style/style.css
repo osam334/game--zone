@@ -103,7 +103,36 @@
     background-color: #4EC5F7; 
 }
 /* banner section end */
+/* card section start */
+.card-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.card-text{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1400px;
+    min-height: 400px;
+    margin: 50px auto 0;
+}
+.card p{
+    color: #534C64;
+   
+}
+.card:hover{
+   background: #0B0223;
+    
+
+}
 
 
 

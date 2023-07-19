@@ -1,4 +1,5 @@
 /* nav section */
+/* for smaill device */
 @media screen and (max-width:400px) {
     .nav-container {
         flex-direction: column;
@@ -12,6 +13,7 @@
     }
    
 }
+/* for big devise */
 @media screen and (min-width:401px) and (max-width:960px) {
     .nav-container {
         flex-direction: column;
@@ -26,6 +28,7 @@
 }
 /* nav section end */
 /* banner section */
+/* for smaoll device */
 @media screen and (max-width:400px) {
     .banner{
         flex-direction: column;
@@ -37,10 +40,11 @@
         height: 100%;
     }  
 }
+/* for big device */
 @media screen and (min-width:401px) and (max-width:960px) {
     .banner{
         flex-direction: column;
-        align-items: center;
+        
     }
     .banner-img{
         flex-direction: column;
@@ -49,4 +53,26 @@
     }
 }
 /* banner section end */
-    
+/* cards section  */
+/* for small device */
+@media screen and (max-width:400px) {
+    .cards{
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        width: 100%;
+        
+      
+    }
+}
+/* for big device */
+@media screen and (min-width:401px) and (max-width:960px) {
+    .cards{
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+    .card img{
+        width: 100%;
+        
+      
+    }
+}
