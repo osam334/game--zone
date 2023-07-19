@@ -55,22 +55,55 @@
     background: rgba(11, 2, 35, 0.10);
     padding: 10px 10px;
 }
-@media screen and (max-width:400px) {
-    .nav-container {
-        flex-direction: column;
-        align-items: center;
-        
-    }
-    .nav-content{
-        flex-direction: column;
-        align-items: center;
+/* nav section end */
+/* banner section */
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-img{
+    height: 30%;
+    width: 90%;
+}
+.banner-content{
+    margin-right: 10px;
     
-    }
-   
+}
+.banner-heading{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+}
+.banner-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+}
+.banner-text{
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+.sign-btn{
+    padding: 10px 20px;
+    border-radius: 48px;
+    background-color: #F948B2;
+    
+}
+.rough-btn{
+    padding: 10px 20px;
+    border-radius: 48px;
+    background-color: #4EC5F7; 
+}
+/* banner section end */
 
-    
-    }
-    
 
 
 
