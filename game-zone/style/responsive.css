@@ -9,7 +9,6 @@
     .nav-content{
         flex-direction: column;
         align-items: center;
-    
     }
    
 }
@@ -23,6 +22,7 @@
     .nav-content{
         flex-direction: column;
         align-items: center;
+        
     
     }
 }
@@ -32,7 +32,6 @@
 @media screen and (max-width:400px) {
     .banner{
         flex-direction: column;
-        align-items: center;
     }
     .banner-img{
         flex-direction: column;
@@ -69,10 +68,36 @@
     .cards{
         flex-direction: column;
         grid-template-columns: 1fr;
+        margin: 0%;
     }
     .card img{
         width: 100%;
-        
-      
     }
+}
+/* card end */
+/* play section */
+/* for small device */
+@media screen and (max-width:400px) {
+    .play{
+        flex-direction: column;
+    }
+    .play-photo{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+/* play section end */
+/* games section */
+@media screen and (max-width:400px) {
+    .games{
+        grid-template-columns:repeat(3,1fr) ;
+    }
+    
+}
+/* for big device */
+@media screen and (min-width:401px) and (max-width:960px){
+    .games{
+        grid-template-columns:repeat(3,1fr) ;
+    }
+    
 }

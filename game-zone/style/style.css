@@ -130,9 +130,58 @@
 }
 .card:hover{
    background: #0B0223;
-    
-
 }
+/* card section end */
+/* play section start */
+.play{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0 70px;
+}
+.play-photo{
+    width: 50%;
+    padding: 50px;
+}
+.play-photo2{
+    margin-top: -300px;
+    margin-left: 500px;
+}
+.play-h1{
+    color: #F948B2;
+    font-size: 35px;
+    font-weight: 600;   
+   
+}
+/* games section */
+.games{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+.game{
+    border: 2px solid black;
+    border-radius: 60px;
+    background: #FFF;
+    flex-basis: 300px;
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+}
+.games-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.game img{
+    height: 60px;
+    width: 60px;
+}
+
 
 
 
